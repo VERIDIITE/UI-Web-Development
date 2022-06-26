@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> portfolio </title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+
+  <div id="bg">
+    <img src="images/uzi.jpg" alt="">
+  </div>
+
+  <div class="hero">
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="portfolio.html">PORTFOLIO</a>
+      <a href="beatstore.html">BEATSTORE</a>
+      <a href="contact.html">CONTACT</a>
+    </nav>
+        <!-- Section: For My PORTFOLIO,   -->
+    <div class="Kasam">
+      <h1> ＰＯＲＴＦＯＬＩＯ </h1>
+    </div>
+    <center>
+      <div class="container">
+        <div class="top-bar">
+          <i class="material-icons">favorite_border</i>
+          <span> Now Playing </span>
+          <i class="material-icons">add</i>
+        </div>
+        <div class="img-area">
+          <img src="images/beat1.jpg" alt="">
+        </div>
+        <div class="song-details">
+          <p class="name"> ENDLESS LOVE X </p>
+          <p class="artist"> VERIDIITE </p>
+          <p class="name"></p>
+        </div>
+        <div class="progress-area">
+          <div class="progress-bar">
+            <audio id="main-audio"></audio>
+          </div>
+          <div class="song-timer">
+            <span class="current-time">0.00</span>
+            <span class="max-duration">0.00</span>
+          </div>
+          <div class="controls">
+            <i id="repeat-plist" class="material-icons" title="playlist looped">repeat</i>
+            <i id="prev" class="material-icons prev">fast_rewind</i>
+            <div class="play-pause">
+              <i class="material-icons play"> play_arrow</i>
+            </div>
+            <i id="next" class="material-icons next">fast_forward</i>
+            <i id="more-music" class="material-icons">queue_music</i>
+          </div>
+          <div class="music-list">
+            <div class="header">
+              <div class="row">
+                <i class="list material-icons">queue_music</i>
+                <span> Music list</span>
+              </div>
+              <i id="close" class="material-icons">close</i>
+            </div>
+            <ul>
+              <li>
+                <div class="row">
+                  <span> ENDLESS LOVE X </span>
+                  <p> VERIDIITE </p>
+                </div>
+                <span class="audio-duration">2.29</span>
+              </li>
+              <li>
+                <div class="row">
+                  <span> FLAME IT UP </span>
+                  <p> VERIDIITE </p>
+                </div>
+                <span class="audio-duration">2.40</span>
+              </li>
+              <li>
+                <div class="row">
+                  <span> REMIND HER TO SEE </span>
+                  <p> VERIDIITE </p>
+                </div>
+                <span class="audio-duration">2.12</span>
+              </li>
+              <li>
+                <div class="row">
+                  <span> THE GALAXY </span>
+                  <p> VERIDIITE </p>
+                </div>
+                <span class="audio-duration">1.43</span>
+              </li>
+              <li>
+                <div class="row">
+                  <span> THE REVEAL </span>
+                  <p> VERIDIITE </p>
+                </div>
+                <span class="audio-duration">2.57</span>
+              </li>
+              <li>
+                <div class="row">
+                  <span> ENDLESS LOVE X </span>
+                  <p> VERIDIITE </p>
+                </div>
+                <span class="audio-duration">1.45</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <script src="music-list.js"></script>
+      <script src="script.js"></script>
+</body>
+
+</html>
