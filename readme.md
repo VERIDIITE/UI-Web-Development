@@ -1,4 +1,5 @@
 # CTEC3905 ASSIGNMENT  - DUAL CHASE //
+![Image description](SG.png)
 
 Welcome to my Portfolio Website.
 
